@@ -1,0 +1,55 @@
+.usergroupslist {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 15px 5px 15px; 
+    width: calc(100% - var(--sidebar-width));
+    flex-wrap: wrap;
+}
+
+.usergroupslist p {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 3px;
+    line-height: 1.2;
+}
+
+.radioselector {
+    padding-left: 5px !important;
+}
+
+.usergroupslist__controls {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.usergroupslist__controls > button {
+    margin: 0.5rem 2rem 0.5rem 0rem;
+    padding: 0 2rem;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.2;
+    height: 36px;
+    height: 36px;
+}
+
+
+.usergroupslist__search {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    padding: 0;
+}
+
+.usergroupslist__search > input {
+    padding: 0;
+    flex: 1;
+}
+
+.usergroupslist__search > button {
+    padding: 10px;
+    padding-right: 0;
+}

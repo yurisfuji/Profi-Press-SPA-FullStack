@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;600&display=swap');
+ 
+@import url('./scrollUp.scss');
+
+#webpack-dev-server-client-overlay {
+  display: none;
+}
+
+:root {
+  --pp-color: #262d92;
+  --navbar-height: 70px;
+  --sidebar-width: 170px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Exo 2', sans-serif !important;
+}
+
+.mono {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-variant: to-upper-case($string: "");
+}
+
+.pro-card{
+  border: 1px solid var(--mui-palette-pro-bordercolor);
+  border-left: 10px solid var(--mui-palette-pro-bordercolor);
+  /* border-top-right-radius: 10px; */
+}
+
+.pro-comment{
+  background-color: var(--mui-palette-comment-background);
+  color: var(--mui-palette-comment-color);
+}
+
+.pro-bg-color{
+  background-color: var(--mui-palette-pro-background);
+}
+
+
+

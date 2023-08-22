@@ -1,0 +1,13 @@
+.grouptab {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - var(--navbar-height) - 20px);
+}
+
+.grouptab > div {
+    margin: auto;
+}
+
+.grouptab button {
+    width: 100%;
+}
